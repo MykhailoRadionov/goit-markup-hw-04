@@ -305,7 +305,10 @@ display: flex;
 
 
 
-
+.fitl-link:hover,
+.fitl-link:focus {
+    background-color: #404bbf;
+}
 
 .section-thre {
    background-color: #F4F4FD;
