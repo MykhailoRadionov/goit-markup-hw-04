@@ -3,12 +3,17 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
+ html {
+     box-sizing: border-box;
+ }
 
-*,
-*:after,
-*:before {
-    box-sizing: inherit;
-}
+ *,
+ *:after,
+ *:before {
+     box-sizing: inherit;
+ }
+
+
 ul,ol {
     list-style-type: none;
     margin-top: 0;
@@ -470,6 +475,10 @@ margin-bottom: 8px
 
 
 
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31d0aa;
+}
 
 .page-footer {
 
@@ -541,9 +550,7 @@ display: flex;
   
     }
 
-.footer-icon {
-    fill: #f4f4fd;
-}
+
 .footer-link {
 display: flex;
     align-items: center;
